@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-CSV = "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+CSV = "customer_churn_prediction_dataset.csv"
 NUM = ["tenure", "MonthlyCharges", "TotalCharges", "SeniorCitizen"]
 CAT = ["Contract", "InternetService", "PaymentMethod", "TechSupport",
        "OnlineSecurity", "PaperlessBilling", "PhoneService"]
